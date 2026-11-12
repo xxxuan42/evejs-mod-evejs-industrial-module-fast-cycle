@@ -1,0 +1,44 @@
+{
+  "author": {
+    "id": "au-mvdfee9me05u",
+    "keyId": "0f5102b5a107",
+    "name": "XUAN"
+  },
+  "category": "玩法",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "所有矿物压缩模块、工业核心、会战装备（group 515）的循环时间统一改为 5 秒，电容/燃料消耗按循环比例下调；同步缩放 4 个燃料消耗加成技能的属性 885，保证满级净消耗仍为正数。服务端内存补丁 + 登录 payload 客户端同步（模块信息窗口的作用时间/消耗量与结算一致），不改客户端文件、数据库与服务端源码；停用模组并重启服务端即还原。",
+  "displayName": "工业模块 5 秒循环",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle/releases/download/v1.1.1/evejs-industrial-module-fast-cycle-1.1.1.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261028.1",
+    "261108.1"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-industrial-module-fast-cycle",
+  "publishedAt": "2026-11-12",
+  "readme": [
+    "把三类工业模块的循环时间统一改成 **5 秒**，并把消耗按循环比例下调；纯服务端内存补丁，\n不改客户端文件、不改数据库、不改服务端源码，停用模组并重启服务端即恢复原版。"
+  ],
+  "repo": "https://github.com/xxxuan42/evejs-mod-evejs-industrial-module-fast-cycle",
+  "requiresRestart": true,
+  "sha256": "b32ecf0efe9c1925c5ff8d0d58235996122b0aefdb66c7c899ee71041f75a6ae",
+  "sizeBytes": 20029,
+  "tags": [
+    "工业",
+    "压缩",
+    "会战模块",
+    "工业核心",
+    "燃料"
+  ],
+  "version": "1.1.1"
+}
